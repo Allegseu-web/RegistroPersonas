@@ -7,6 +7,7 @@ namespace RegistroPersonas.Entidades
 {
     public class PersonasDetalle
     {
+        //Detalle
         [Key]
         public int ID { get; set; }
         public int PersonaID { get; set; }
